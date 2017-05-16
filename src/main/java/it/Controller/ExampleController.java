@@ -15,4 +15,9 @@ public class ExampleController {
     public String status(){
         return "Status OK";
     }
+
+    @RequestMapping("hello")
+    public String sayHello(){
+        return ("Hello, SpringBoot on Wildfly");
+    }
 }
